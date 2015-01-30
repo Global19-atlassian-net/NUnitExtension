@@ -31,6 +31,12 @@
     <OutputPath Condition="'$(OutputPath)' == ''">$(BinaryOutputPath)</OutputPath>
     <OutDir Condition="'$(OutDir)' == ''">$(OutputPath)</OutDir>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>strongname.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.core">
       <HintPath>..\packages\NUnitTestAdapter.1.2\lib\nunit.core.dll</HintPath>
@@ -55,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="strongname.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
