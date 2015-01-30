@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Quantum.NUnitExtension.dll</id>
+    <version>1.0.0</version>
+    <authors>tnielsen</authors>
+    <owners>tnielsen</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NUnit extension for inconclusive tests</description>
+    <releaseNotes>This is the initial release.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>NUnit extension</tags>
+    <dependencies>
+      <dependency id="NUnitTestAdapter" version="1.2" />
+    </dependencies>
+  </metadata>
+</package>

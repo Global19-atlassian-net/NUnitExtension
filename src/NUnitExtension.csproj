@@ -27,7 +27,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <BinaryOutputPath>..\binaries\$(Configuration)\</BinaryOutputPath>
+    <BinaryOutputPath>..\lib\</BinaryOutputPath>
     <OutputPath Condition="'$(OutputPath)' == ''">$(BinaryOutputPath)</OutputPath>
     <OutDir Condition="'$(OutDir)' == ''">$(OutputPath)</OutDir>
   </PropertyGroup>
