@@ -11,23 +11,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Quantum.NUnitExtension</RootNamespace>
     <AssemblyName>Quantum.NUnitExtension</AssemblyName>
-    <OutputPathRoot>tools</OutputPathRoot>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <PlatformTarget>x64</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <PlatformTarget>x86</PlatformTarget>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputPathRoot>lib</OutputPathRoot>
   </PropertyGroup>
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <BinaryOutputPath>..\lib\</BinaryOutputPath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <BinaryOutputPath>lib\</BinaryOutputPath>
     <OutputPath Condition="'$(OutputPath)' == ''">$(BinaryOutputPath)</OutputPath>
     <OutDir Condition="'$(OutDir)' == ''">$(OutputPath)</OutDir>
   </PropertyGroup>

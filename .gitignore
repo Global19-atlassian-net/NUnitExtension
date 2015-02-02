@@ -1,3 +1,6 @@
 NUnitExtension.sln.ide/
 packages/
 src/obj/x86/Debug/NUnitExtension.csproj.FileListAbsolute.txt
+src/Quantum.NUnitExtension.1.0.0.nupkg
+src/obj/Debug/NUnitExtension.csproj.FileListAbsolute.txt
+src/obj/

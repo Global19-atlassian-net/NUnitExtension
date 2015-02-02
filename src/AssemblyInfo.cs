@@ -11,3 +11,4 @@
 using System.Reflection;
 
 [assembly: AssemblyTitle("QuantumNUnitExtension")]
+[assembly: AssemblyVersion("1.0.0.0")]
