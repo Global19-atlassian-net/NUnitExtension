@@ -12,6 +12,6 @@
     <tags>NUnit extension</tags>
   </metadata>
   <files>
-      <file src="lib\Quantum.NUnitExtension.dll" target="lib\Quantum.NUnitExtension.dll"/>
+      <file src="binaries\Quantum.NUnitExtension.dll" target="lib"/>
   </files>
 </package>
